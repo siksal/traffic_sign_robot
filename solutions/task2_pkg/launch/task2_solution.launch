@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <!-- Run the task 2 solution -->
+    <!--node name="traffic_signal_navigation" pkg="task2_pkg" type="traffic_signal_navigation.py" output="screen" /-->
+
+    <!-- Uncomment the line below to run to use the hsv colour filter -->
+    <node name="hsv_colour_filter" pkg="task2_pkg" type="hsv_colour_filter.py" output="screen" / >
+
+</launch>
